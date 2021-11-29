@@ -1,0 +1,48 @@
+* {
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: #E3170A;
+    text-align: center;
+}
+
+nav {
+    background-color: #E16036;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav > a {
+    margin: 1em;
+}
+
+main {
+    background-color: #87A878;
+    padding: 0.5em;
+}
+
+article {
+    background-color: #0A2463;
+    padding: 1em;
+}
+
+article > h2 {
+    margin: 1em 0;
+}
+
+article:not(:first-child) {
+    margin-top: 5px;
+}
+
+article:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #002E2C;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5em;
+}
