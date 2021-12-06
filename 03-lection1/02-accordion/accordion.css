@@ -1,1 +1,26 @@
-/* Стилизация аккордеона */
+.accordion {
+  display: block;
+  width: 730px;
+  box-sizing: border-box;
+  border: 1px solid #acb5bd;
+  background: white;
+  border-radius: 8px;
+  transition: height 200ms ease-in-out;
+}
+
+.accordion__title {
+  display: block;
+  cursor: pointer;
+  padding-left: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.accordion__title::-webkit-details-marker {
+  /* нестандартный псевдоэлемент Google Chrome */
+  display: none;
+}
+
+.accordion__content {
+  margin: 0 32px 16px;
+}
