@@ -1,0 +1,18 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo__item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
