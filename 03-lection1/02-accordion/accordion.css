@@ -1,4 +1,5 @@
 .accordion {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,16 +36,31 @@
 
 .accordion__item[open] .accordion__icon {
   transform: rotate(180deg);
+=======
+  display: block;
+  width: 730px;
+  box-sizing: border-box;
+  border: 1px solid #acb5bd;
+  background: white;
+  border-radius: 8px;
+  transition: height 200ms ease-in-out;
+>>>>>>> 4fcd762 (add accordion)
 }
 
 .accordion__title {
   display: block;
   cursor: pointer;
+<<<<<<< HEAD
   padding: 24px 32px;
 }
 
 .accordion__item[open] .accordion__title {
   padding-bottom: 16px;
+=======
+  padding-left: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+>>>>>>> 4fcd762 (add accordion)
 }
 
 .accordion__title::-webkit-details-marker {
@@ -53,7 +69,11 @@
 }
 
 .accordion__content {
+<<<<<<< HEAD
   margin: 0;
   padding: 0 32px 32px 32px;
   color: var(--grey-4);
+=======
+  margin: 0 32px 16px;
+>>>>>>> 4fcd762 (add accordion)
 }
