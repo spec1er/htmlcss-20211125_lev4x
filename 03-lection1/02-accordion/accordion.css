@@ -15,6 +15,7 @@
   background: var(--white);
   border-radius: 8px;
   transition: height 200ms ease-in-out;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -44,6 +45,10 @@
 }
 
 .accordion__item[open] .accordion__title {
+  padding-bottom: 16px;
+}
+
+.accordion[open] .accordion__title {
   padding-bottom: 16px;
 }
 
