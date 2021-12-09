@@ -52,6 +52,10 @@
   padding-bottom: 16px;
 }
 
+.accordion[open] .accordion__title {
+  padding-bottom: 16px;
+}
+
 .accordion__title::-webkit-details-marker {
   /* нестандартный псевдоэлемент Google Chrome */
   display: none;
