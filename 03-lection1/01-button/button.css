@@ -1,39 +1,45 @@
 .button {
-    min-width: 189px;
-    min-height: 48px;
-    padding: 0.5em 1em;
-    border: 0;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out, border 200ms ease-in-out;
+  min-width: 189px;
+  min-height: 48px;
+  padding: 0.5em 1em;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out, border 200ms ease-in-out;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
 }
 
 .button_primary {
-    background: var(--blue);
-    color: white;
+  background: var(--blue);
+  color: var(--white);
 }
 
 .button_secondary {
-    background: var(--purple);
-    color: white;
+  background: var(--purple);
+  color: var(--white);
 }
 
 .button_alternate {
-    background: white;
-    color: var(--grey-4);
-    border: 1px solid #ACB5BD;
+  background: var(--white);
+  color: var(--grey-4);
+  border: 1px solid var(--grey-3);
 }
 
 .button_primary:hover {
-    background: #2342C0;
+  background: var(--blue-2);
 }
 
 .button_secondary:hover {
-    background: #5028C6;
+  background: var(--purple-2);
 }
 
 .button_alternate:hover {
-    border: 1px solid #212429;
+  border: 1px solid var(--black);
 }
 
 .button:disabled {
