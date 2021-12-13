@@ -51,5 +51,10 @@ body {
 }
 
 .container {
-    
+  max-width: 1110px;
+  margin: auto;
+}
+
+html, body {
+    height: 100%;
 }
