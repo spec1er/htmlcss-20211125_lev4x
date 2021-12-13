@@ -1,0 +1,8 @@
+.header {
+    background: var(--white);
+    height: 237px;
+    display: flex;
+}
+
+.header__title {
+}
