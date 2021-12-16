@@ -1,8 +1,12 @@
 .header {
-    background: var(--white);
-    height: 237px;
-    display: flex;
+  background: var(--white);
+  height: 237px;
+  display: flex;
 }
 
 .header__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 64px;
 }
