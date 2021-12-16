@@ -3,11 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .accordion__item {
   display: block;
-  min-width: 730px;
+  max-width: 730px;
+  width: 100%;
   box-sizing: border-box;
   border: 1px solid var(--grey-3);
   background: var(--white);
