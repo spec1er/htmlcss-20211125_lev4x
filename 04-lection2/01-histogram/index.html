@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <!-- Страница с гистограммой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./histogram.css">
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="../../assets/css/normalize.css" />
+    <link rel="stylesheet" href="./histogram.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
 
-    </body>
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <div class="histogram">
+        <header class="histogram__summary">
+          <p class="histogram__title">Total orders</p>
+          <h4 class="histogram__count">50254</h4>
+
+          <a href="#" class="histogram__link">View all</a>
+        </header>
+
+        <ul class="histogram__diagram">
+          <li class="histogram__bar" style="height: 50px;"></li>
+          <li class="histogram__bar" style="height: 35px;"></li>
+          <li class="histogram__bar" style="height: 22px;"></li>
+          <li class="histogram__bar" style="height: 39px;"></li>
+          <li class="histogram__bar" style="height: 22px;"></li>
+          <li class="histogram__bar" style="height: 30px;"></li>
+          <li class="histogram__bar" style="height: 39px;"></li>
+          <li class="histogram__bar" style="height: 50px;"></li>
+          <li class="histogram__bar" style="height: 45px;"></li>
+          <li class="histogram__bar" style="height: 30px;"></li>
+          <li class="histogram__bar" style="height: 25px;"></li>
+          <li class="histogram__bar" style="height: 29px;"></li>
+          <li class="histogram__bar" style="height: 45px;"></li>
+          <li class="histogram__bar" style="height: 40px;"></li>
+          <li class="histogram__bar" style="height: 34px;"></li>
+          <li class="histogram__bar" style="height: 50px;"></li>
+          <li class="histogram__bar" style="height: 20px;"></li>
+          <li class="histogram__bar" style="height: 15px;"></li>
+          <li class="histogram__bar" style="height: 30px;"></li>
+          <li class="histogram__bar" style="height: 35px;"></li>
+          <li class="histogram__bar" style="height: 45px;"></li>
+          <li class="histogram__bar" style="height: 50px;"></li>
+          <li class="histogram__bar" style="height: 18px;"></li>
+          <li class="histogram__bar" style="height: 10px;"></li>
+          <li class="histogram__bar" style="height: 5px;"></li>
+          <li class="histogram__bar" style="height: 30px;"></li>
+          <li class="histogram__bar" style="height: 25px;"></li>
+          <li class="histogram__bar" style="height: 45px;"></li>
+          <li class="histogram__bar" style="height: 50px;"></li>
+          <li class="histogram__bar" style="height: 25px;"></li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
