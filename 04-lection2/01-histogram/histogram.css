@@ -2,8 +2,6 @@
   padding: 16px 24px 24px;
   background: var(--white);
   max-width: 354px;
-  max-height: 185px;
-  height: 100%;
   width: 100%;
   border: 1px solid var(--grey-3);
   box-sizing: border-box;
@@ -14,6 +12,7 @@
 
 .histogram__summary {
   position: relative;
+  margin-bottom: 39px;
 }
 
 .histogram__title {
@@ -24,6 +23,8 @@
   font-size: 16px;
   line-height: 24px;
   opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
 }
 
 .histogram__count {
@@ -36,15 +37,13 @@
 }
 
 .histogram__link {
-  position: absolute;
-  top: 1px;
-  right: 1px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
   color: var(--blue-3);
+  margin-top: 3px;
 }
 
 .histogram__link:visited {
