@@ -53,6 +53,7 @@
 .histogram__diagram {
   margin: 0;
   padding: 0;
+  height: 50px;
   display: grid;
   grid-template-columns: repeat(30, 1fr);
   align-items: flex-end;
