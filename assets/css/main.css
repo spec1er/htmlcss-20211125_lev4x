@@ -18,11 +18,21 @@
   --grey-4: #495057;
   --grey-5: #90a0b7;
   --grey-6: #f9fafc;
+
   --error: var(--red);
   --success: var(--blue);
 
   --primary: var(--blue);
   --secondary: var(--purple);
+
+  --grey-gradient: linear-gradient(
+    92.51deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
+  );
 }
 
 * {
