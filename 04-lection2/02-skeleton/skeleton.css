@@ -5,4 +5,10 @@
   border: 1px solid var(--grey-3);
   box-sizing: border-box;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skeleton__header {
+  display: flex;
 }
