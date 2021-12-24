@@ -39,10 +39,10 @@
   height: 20px;
 }
 
-.skeleton_firstname {
+.skeleton__line_firstname {
   width: 40%;
 }
 
-.skeleton_lastname {
+.skeleton__line_lastname {
   width: 59%;
 }
