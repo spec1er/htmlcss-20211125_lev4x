@@ -1,7 +1,6 @@
 @import '../fonts/fonts.css';
 
 :root {
-
   --white: #ffffff;
   --black: #212429;
   --pink: #f784ad;
@@ -9,6 +8,7 @@
   --purple-2: #5028c6;
   --blue: #374fc7;
   --blue-2: #2342c0;
+  --blue-3: #4263EB;
   --red: #f03d3e;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
@@ -17,9 +17,9 @@
   --grey-5: #f9fafc;
   --error: var(--red);
   --success: var(--blue);
-
   --primary: var(--blue);
   --secondary: var(--purple);
+  --grey-gradient: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
 * {

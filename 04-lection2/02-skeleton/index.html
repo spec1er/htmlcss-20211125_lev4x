@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Страница со скелетоном -->
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="../../assets/css/normalize.css" />
+    <link rel="stylesheet" href="./skeleton.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <article class="skeleton">
+        <header class="skeleton__header">
+          <div class="skeleton__avatar"></div>
+          <div class="skeleteon__lines">
+            <div class="skeleton__line skeleton__line_firstname"></div>
+            <div class="skeleton__line skeleton__line_lastname"></div>
+          </div>
+        </header>
+
+        <div class="skeleteon__lines">
+          <div class="skeleton__line"></div>
+          <div class="skeleton__line"></div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
