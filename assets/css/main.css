@@ -17,14 +17,24 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #90A0B7;
-
+    --grey-6: #f9fafc;
     --error: var(--red);
     --success: var(--blue);
-
     --primary: var(--blue);
     --secondary: var(--purple);
+    --grey-gradient: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
 * {
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+  width: 100%;
+}
+
+html, body {
+    height: 100%;
 }
