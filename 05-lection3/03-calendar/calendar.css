@@ -1,0 +1,77 @@
+.calendar {
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-width: 304px;
+  width: 100%;
+  padding: 28px 26px;
+}
+
+.calendar__wrapper {
+  position: relative;
+  padding-top: 100%;
+}
+
+.calendar__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 70px 1fr;
+  align-items: center;
+}
+
+.calendar__title {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--black-2);
+  text-align: center;
+}
+
+.calendar__week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar__day-of-week {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--grey-5);
+}
+
+.calendar__days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 100%;
+  justify-content: center;
+  place-items: stretch;
+}
+
+.calendar__day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.calendar__day_select-border {
+  background: var(--blue-3);
+  color: var(--white);
+}
+
+.calendar__day_selected {
+  background: var(--purple-3);
+}
