@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <!-- Страница с модалкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./modal.css">
-        <title>Modal</title>
-    </head>
-    <body>
-    </body>
-    <script src="./index.js"></script> 
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="../../03-lection1/01-button/button.css" />
+    <link rel="stylesheet" href="../../assets/css/normalize.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <button id="modal-open" class="button button_primary">Open modal</button>
+      <div id="modal" class="modal">
+        <section class="modal__content">
+          <h1 class="modal__title">Modal title</h1>
+          <p class="modal__text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+            ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+            duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+            amet.
+          </p>
+          <a id="modal-close" href="#" class="modal__close"></a>
+        </section>
+      </div>
+    </main>
+  </body>
+  <script src="./index.js"></script>
 </html>
