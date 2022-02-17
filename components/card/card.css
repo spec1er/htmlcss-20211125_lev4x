@@ -16,3 +16,10 @@
   line-height: 25px;
   text-align: center;
 }
+
+.card__content {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
