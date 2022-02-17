@@ -1,0 +1,23 @@
+.background {
+  background-image: url('./public/forest_2560.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1024px) {
+  .background {
+    background-image: url('./public/forest_1024.jpg');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .background {
+    background-image: url('./public/forest_768.jpg');
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .background {
+    background-image: url('./public/forest_400.jpg');
+  }
+}
